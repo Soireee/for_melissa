@@ -1,13 +1,22 @@
-import React from 'react';
+import * as React from 'react'
+import reset from 'styled-reset'
+import { ThemeProvider } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 import { Header } from './components/Header'
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Footer } from "./components/Footer";
 import { Sample } from "./components/About";
 import { Hero } from "./components/Hero/Hero";
 import { News } from "./components/News/News";
+
+const GlobalStyle = createGlobalStyle`
+  ${reset}
+  /* other styles */
+`
 function App() {
   return (
     <div className="App">
+      <GlobalStyle />
       <BrowserRouter>
         <Header />
         <Switch>
