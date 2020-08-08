@@ -2,7 +2,7 @@ import React from 'react'
 import { StyledHeader } from './styles/StyledHeader'
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faYoutube, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons'
 export const Header = () => {
   const headerLink = [
     {
@@ -20,7 +20,7 @@ export const Header = () => {
     {
       id: 4,
       name: "CONTACT"
-    }
+    },
   ]
   const linkList = headerLink.map(link => {
     return (
@@ -44,12 +44,12 @@ export const Header = () => {
         </div>
         <div className="header-sns">
           <ul>
-            <a href="https://twitter.com/home" className="header-sns-link">
+            <a href="https://www.youtube.com/channel/UCwcyyxn6h9ex4sMXGtpQE_g" className="header-sns-link">
               <FontAwesomeIcon icon={faYoutube} />
             </a>
-            <li className="header-sns-link">
-              <FontAwesomeIcon icon={faFacebook} />
-            </li>
+            <a href="https://twitter.com/home" className="header-sns-link">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
           </ul>
         </div>
       </div>

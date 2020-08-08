@@ -25,7 +25,7 @@ color: #919191;
 }
 .header-left a, .header-right a {
   display: inline-block;
-  padding: 10px 40px;
+  padding: 10px 30px;
   list-style: none;
   text-decoration: none;
 }
@@ -46,15 +46,11 @@ color: #919191;
 
 }
 
-.header-right a:hover {
-
-}
-
 .header-sns {
   position: fixed;
   right: 0;
-  border: 1px solid black;
-  width: 80px;
+  border: 1px solid #EF8075;
+  width: 70px;
   height: 160px;
   padding: 20px 30px;
   margin: auto;
@@ -77,12 +73,11 @@ color: #919191;
   width: 305px;
   margin: 10px 0 auto 10px 0;
   text-align: left;
-  padding: 10px;
   transition: all 1s;
   text-align: right;
-  border-radius: 30px;
+  border-radius: 50px;
   text-align: left;
-  border: 1px solid black;
+  border: 1px solid #EF8075;
   height: 70px;
   margin 0 auto 24px;
 }
@@ -94,9 +89,9 @@ color: #919191;
 
 .header-sns-link svg {
   font-size: 50px;
-  width: 40px;
-  height: 40px;
-  margin: 8px 0 0 4px;
+  width: 30px;
+  height: 30px;
+  margin: 12px 0 0 4px;
   padding: 8px;
   transform: rotate(0deg);
   color: #EF8075;

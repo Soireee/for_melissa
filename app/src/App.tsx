@@ -3,7 +3,8 @@ import { Header } from './components/Header'
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Footer } from "./components/Footer";
 import { Sample } from "./components/About";
-import { Hero } from "./components/Hero/Hero"
+import { Hero } from "./components/Hero/Hero";
+import { News } from "./components/News/News";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
           {/* <Route component={NotFound} /> */}
         </Switch>
         <Hero />
+        <News />
         <Footer />
       </BrowserRouter>
     </div>
