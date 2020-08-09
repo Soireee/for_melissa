@@ -1,37 +1,37 @@
 import styled from 'styled-components';
 
-export const StyledNews = styled.div`
+export const StyledMusic = styled.div`
 background: #F6F6F6;
 
-.news-section {
+.music-section {
   padding-bottom: 10px;
 }
 
-.news-section {
+.music-section {
   max-width: 1280px;
   margin: 0 auto;
 }
-.news-container {
+.music-container {
   max-width: 1080px;
   margin: 0 auto;
   padding-top: 100px;
 }
 
-.news-header-container {
+.music-header-container {
   margin-bottom: 170px;
 }
 
-.news-header {
+.music-header {
 }
 
-.news-header-text {
+.music-header-text {
   font-size: 70px;
   font-weight: 400;
   color: #EF8075;
   letter-spacing: .05em;
 }
 
-.news-backImg {
+.music-backImg {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -40,40 +40,40 @@ background: #F6F6F6;
   margin: 0 auto;
 }
 
-.news-list {
+.music-list {
 
 }
 
-.news-item {
+.music-item {
   list-style: none;
   margin-bottom: 60px;
 }
 
-.news-item-link {
+.music-item-link {
   display: flex;
   text-decoration: none;
 }
 
-.news-item-box {
+.music-item-box {
   display: flex;
 }
 
-.news-item p {
+.music-item p {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: .05em;
   margin-right: 20px;
 }
 
-.news-date, .news-content {
+.music-date, .music-content {
   color: #3A3547;
 }
 
-.news-date, .news-tag {
+.music-date, .music-tag {
   white-space: nowrap;
 }
 
-.news-tag {
+.music-tag {
   background: white;
   padding: 6px 20px;
   margin-top: -6px;
@@ -83,7 +83,7 @@ background: #F6F6F6;
   max-height: 16px;
 }
 
-.news-content {
+.music-content {
   line-height: 1.32;
 }
 

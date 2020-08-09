@@ -57,6 +57,10 @@ export const StyledHero = styled.div`
   background: orange;
 }
 
+.tw-header {
+  margin-bottom: 28px;
+}
+
 .tw-section {
   width: 30%;
 }
@@ -110,7 +114,7 @@ export const StyledHero = styled.div`
   color: #EF8075;
   letter-spacing: .05em;
   font-weight: bold;
-  padding: 0 10px;
+  padding: 6px 14px;
   margin-block-start: 0;
   margin-block-end: 0;
 }

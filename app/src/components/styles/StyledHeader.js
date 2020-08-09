@@ -13,6 +13,7 @@ color: #919191;
   display: flex;
   align-items: center;
   position: fixed;
+  padding-top: 10px;
 }
 
 .header-right {
